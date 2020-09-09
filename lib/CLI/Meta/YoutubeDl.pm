@@ -81,7 +81,7 @@ our $META = {
         'no-playlist' => undef,
         'yes-playlist' => undef,
         'age-limit=i' => undef,
-        'download-archive=s' => $comp_file,
+        'download-archive=s' => {completion=>$comp_file},
         'include-ads' => undef,
 
         # Download Options:
